@@ -32,4 +32,7 @@ Try using some of the following commands in the terminal:
 - `ls`, to list the contents of the working directory
 - `cat`, to print the contents of a file given its path as a parameter
 - `cd`, to change the working directory to a given path
+
 <img width="1280" alt="image" src="https://user-images.githubusercontent.com/110417473/212501445-3c7a2ffc-f2fb-426f-83cc-2f2370e9d15e.png">
+
+Thank you for following this tutorial!

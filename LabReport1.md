@@ -1,4 +1,4 @@
-# Week 1 Lab Report
+# Lab Report 1
 By: Emmett Pangan
 
 ## Installing VS Code

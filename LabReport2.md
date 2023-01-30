@@ -160,5 +160,5 @@ static List<String> filter(List<String> list, StringChecker sc) {
 
 By deleting the ``0`` parameter in the ``result.add()`` call, the matching strings will be added to the end of the list each time, resulting in a list with strings added in the order they were encountered as desired. Before changing the ``result.add()`` call, each matching string was been added to the front of the ArrayList at index 0 instead of at the end, resulting in a list with inverted order.
 
-# Part 3: What I Learned from Lab
+## Part 3: What I Learned from Lab
 Prior to week 2's lab, I did not know how local servers could be implemented in Java. Now I'm more familiar with the process for writing handler methods for URLs and setting the port to listen to requests by users. Furthermore, the object-oriented structure for the server design in week 2's lab allowed me to better understand how the different components like the handler, server, and requests interact together.

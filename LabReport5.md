@@ -1,7 +1,7 @@
 # Lab Report 5
 By: Emmett Pangan
 
-## Creating a `bash` Test Script
+## The `bash` Grading Script
 
 ```
 CPATH='.;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'
@@ -55,3 +55,15 @@ else
     exit 1
 fi
 ```
+
+### Explanation
+```
+CPATH='.;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'
+```
+We assign the class path for JUnit testing to a variable called `CPATH`. We will use this variable to compile and run our tests.
+
+```
+rm -rf student-submission
+git clone -q $1 student-submission
+```
+First, we remove any existing `student-submission` folder and its contents so that we can create a new one. Using the `git clone` command, we take in the command line argument

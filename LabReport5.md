@@ -144,3 +144,23 @@ fi
 This block of code first checks whether 0 tests were run or 0 tests were passed. In either case, the autograder assigns a grade of 0 and exits. Otherwise, we calculate the grade of the student's submission up to two decimal places. First, we multiply the number of successes by 10000 and divide it by the number of tests. This yields the percentage grade of the student times 100. To convert this value to the actual percentage grade to two decimal places, we use the `expr` command to find the proper index to split the number and insert a decimal point. Once this has been calculated, the autograder indicates the grade of the student and exits. 
 
 ## Examples of Running the Script
+<img width="480" alt="image" src="https://user-images.githubusercontent.com/110417473/224874261-a246d8f7-6369-4b01-a6fa-97d821e02b17.png">
+
+This submission had a faulty `merge` method and failed the corresponding tests.
+
+---
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/110417473/224874689-ec491fd6-a3a0-45d9-9200-6f1e58c60a47.png">
+This submission was correct and passed all tests.
+
+---
+<img width="432" alt="image" src="https://user-images.githubusercontent.com/110417473/224874931-48af4c08-4dc4-4c4e-8616-bdd6dbe6f71e.png">
+This submission had a syntax error and did not compile.
+
+---
+<img width="610" alt="image" src="https://user-images.githubusercontent.com/110417473/224875115-c7c7856a-3617-4a09-9d58-77c0c7c8747e.png">
+
+This submission used an incorrect order of arguments to its `filter` method and was not compatible with the tester.
+
+---
+<img width="401" alt="image" src="https://user-images.githubusercontent.com/110417473/224875259-9eb48ce0-b90c-4d56-b86d-ed329f02677a.png">
+This submission had the correct implementation but saved under a different name than `ListExamples.java`.

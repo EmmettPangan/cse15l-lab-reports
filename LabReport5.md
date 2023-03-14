@@ -1,7 +1,7 @@
 # Lab Report 5
 By: Emmett Pangan
 
-## The `bash` Autograder Script
+## The Autograder `bash` Script
 
 ```
 CPATH='.;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'
@@ -143,7 +143,7 @@ fi
 ```
 This block of code first checks whether 0 tests were run or 0 tests were passed. In either case, the autograder assigns a grade of 0 and exits. Otherwise, we calculate the grade of the student's submission up to two decimal places. First, we multiply the number of successes by 10000 and divide it by the number of tests. This yields the percentage grade of the student times 100. To convert this value to the actual percentage grade to two decimal places, we use the `expr` command to find the proper index to split the number and insert a decimal point. Once this has been calculated, the autograder indicates the grade of the student and exits. 
 
-## Examples of Running the Script
+## Running the Script
 <img width="480" alt="image" src="https://user-images.githubusercontent.com/110417473/224874261-a246d8f7-6369-4b01-a6fa-97d821e02b17.png">
 
 This submission had a faulty `merge` method and failed the corresponding tests.

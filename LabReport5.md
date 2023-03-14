@@ -150,10 +150,12 @@ This submission had a faulty `merge` method and failed the corresponding tests.
 
 ---
 <img width="410" alt="image" src="https://user-images.githubusercontent.com/110417473/224874689-ec491fd6-a3a0-45d9-9200-6f1e58c60a47.png">
+
 This submission was correct and passed all tests.
 
 ---
 <img width="432" alt="image" src="https://user-images.githubusercontent.com/110417473/224874931-48af4c08-4dc4-4c4e-8616-bdd6dbe6f71e.png">
+
 This submission had a syntax error and did not compile.
 
 ---
@@ -163,4 +165,5 @@ This submission used an incorrect order of arguments to its `filter` method and 
 
 ---
 <img width="401" alt="image" src="https://user-images.githubusercontent.com/110417473/224875259-9eb48ce0-b90c-4d56-b86d-ed329f02677a.png">
+
 This submission had the correct implementation but saved under a different name than `ListExamples.java`.

@@ -159,7 +159,7 @@ This submission was correct and passed all tests.
 This submission had a syntax error and did not compile.
 
 ---
-<img width="610" alt="image" src="https://user-images.githubusercontent.com/110417473/224875115-c7c7856a-3617-4a09-9d58-77c0c7c8747e.png">
+<img width="609" alt="image" src="https://user-images.githubusercontent.com/110417473/224876013-752596b4-7b6d-4e2a-af0b-00ebce09a5c5.png">
 
 This submission used an incorrect order of arguments to its `filter` method and was not compatible with the tester.
 
